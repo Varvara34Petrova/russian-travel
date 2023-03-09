@@ -1,0 +1,12 @@
+ .header__lang-bottons{
+    display: flex;
+    align-items: end;
+    padding-bottom: 6px;
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 540px) {
+    .header__lang-bottons {
+      padding: 14px 0 8px 0;
+    }
+  }

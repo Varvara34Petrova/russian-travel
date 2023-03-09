@@ -1,0 +1,31 @@
+.footer__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0;
+    line-height: 1.12;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 18px;
+    /* vertical-align: bottom; */
+  }
+  
+  @media screen and (max-width: 540px) {
+    .footer__link {
+      min-height: 24px;
+      padding-left: 0;
+      font-size: 1.5rem;
+      line-height: 1;
+      padding-top: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .footer__link:first-child {
+      padding-top: 0;
+    }
+  }
+  
+  .footer__link:first-child {
+    padding-left: 0;
+  }

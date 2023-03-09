@@ -1,0 +1,37 @@
+.lead__caption {
+    margin: 0;
+    max-height: 14px;
+    width: 16%;
+    font-size: 0.6rem;
+    line-height: 1.4;
+    font-style: Regular;
+    padding-top: 8px;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .lead__caption {
+      width: 17%;
+      font-size: 0.6rem;
+      line-height: 1.4;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .lead__caption {
+      width: 20.5%;
+      padding: 8px 586px 0 24px;
+      font-size: 0.6rem;
+      line-height: 1.4;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .lead__caption {
+      width: 49.37%;
+      padding: 8px 146px 0 16px;
+      margin: 0;
+      font-size: 0.6rem;
+      line-height: 1.4;
+    }
+  }

@@ -1,0 +1,15 @@
+.place__website_url-heading {
+    width: 100%;
+    color: #AAAAAA;
+    text-align: left;
+    text-decoration: none;
+    line-height: 1.7;
+    font-size: 0.75rem;
+    font-style: Regular;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__website_url-heading {
+      line-height: 1;
+    }
+  }

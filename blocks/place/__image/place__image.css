@@ -1,0 +1,30 @@
+.place__image {
+    object-fit: cover;
+    margin: auto;
+    max-width: 460px;
+    justify-self: start;
+    align-self: start;
+    padding-top: 48px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .place__image {
+      width: 100%;
+      min-height: 440px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__image {
+      width: 100%;
+      min-height: 340px;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .place__image {
+      width: 100%;
+      min-height: 320px;
+      padding-top: 32px;
+    }
+  }
