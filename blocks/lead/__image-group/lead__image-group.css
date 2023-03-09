@@ -1,11 +1,11 @@
-.lead__image_group {
+.lead__image-group {
     width: 95.23%;
     height: 42.76%;
     padding: 90.21px 23.64px 261.8px 23.27px;
   }
   
   @media screen and (max-width: 1023px) {
-    .lead__image_group {
+    .lead__image-group {
       width: 95.23%;
       height: 42.76%;
       padding: 85.07px 22.3px 246.9px 21.95px;
@@ -13,7 +13,7 @@
   }
   
   @media screen and (max-width: 767px) {
-    .lead__image_group {
+    .lead__image-group {
       width: 95.25%;
       height: 42.76%;
       padding: 70.41px 18.45px 204.33px 18.16px;
@@ -21,7 +21,7 @@
   }
   
    @media screen and (max-width: 540px) {
-    .lead__image_group {
+    .lead__image-group {
       width: 95.23%;
       height: 42.765%;
       padding: 29.34px 7.69px 85.14px 7.57px;
