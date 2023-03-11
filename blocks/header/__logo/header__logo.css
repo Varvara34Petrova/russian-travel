@@ -2,17 +2,9 @@
     max-width: 176px;
     margin: 0;
   }
-  
+
   @media screen and (max-width: 767px) {
     .header__logo {
-      padding-right: 467px;
-    }
-  }
-  
-  @media screen and (max-width: 540px) {
-    .header__logo {
       max-width: 142px;
-      min-height: 42px;
-      padding-right: 84px;
     }
   }

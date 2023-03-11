@@ -3,32 +3,30 @@
     width: 73%;
     font-style: inter-black;
     text-align: center;
-    padding: 0 132px 32px 132px;
+    justify-self: center;
+    padding-bottom: 32px;
     font-size: 6rem;
     line-height: 1.04;
   }
   
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1279px) {
     .lead__title {
       width: 77.58%;
-      padding: 0 104px 32px 104px;
-      font-size: 6rem;
       line-height: 1;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .lead__title {
+      width: 93.87%;
     }
   }
   
   @media screen and (max-width: 767px) {
     .lead__title {
-      width: 93.87%;
-      padding: 0 24px 32px 24px;
-    }
-  }
-  
-  @media screen and (max-width: 540px) {
-    .lead__title {
       font-size: 2.5rem;
       line-height: 1.1;
       width: 90%;
-      padding: 0 14px 16px 14px;
+      padding-bottom: 16px;
     }
   }

@@ -2,11 +2,11 @@
     max-width: 484px;
     padding: 48px 0 0 40px;
     text-align: left;
-    align-items: end;
-    margin: auto;
+    align-self: self-start;
+    margin: 0 auto;
   }
   
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1279px) {
     .place__paragraph-main {
       max-width: 456px;
       padding: 48px 0 7px 32px;
@@ -14,14 +14,14 @@
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1023px) {
     .place__paragraph-main {
       max-width: 352px;
       padding: 48px 0 0 28px;
     }
   }
   
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 767px) {
     .place__paragraph-main {
       width: 90%;
       text-align: left;

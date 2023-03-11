@@ -7,29 +7,27 @@
     padding-top: 33px;
     white-space: pre-line;
     justify-self: start;
-    vertical-align: top;
   }
   
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1279px) {
     .intro__list {
       width: 100%;
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1023px) {
     .intro__list {
       max-width: 720px;
     }
   }
   
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 767px) {
     .intro__list {
       width: 100%;
-      max-height: 90px;
       padding-top: 34px;
     }
   }
-  
+
   .intro__list:last-child {
     margin-bottom: 0;
   }

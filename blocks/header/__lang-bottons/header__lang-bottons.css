@@ -5,7 +5,7 @@
     margin: 0;
   }
   
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 767px) {
     .header__lang-bottons {
       padding: 14px 0 8px 0;
     }

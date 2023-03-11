@@ -1,5 +1,4 @@
 .footer {
-    max-height: 18px;
     width: 92.5%;
     display: flex;
     box-sizing: border-box;
@@ -9,23 +8,29 @@
     color: #FFFFFF;
   }
   
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1279px) {
     .footer {
       width: 90.71%;
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1023px) {
     .footer {
       width: 93.87%;
       margin: 0 24px 24px 24px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .footer {
+      width: 94.07%;
+      margin: 64px 16px 24px 16px;
     }
   }
   
   @media screen and (max-width: 540px) {
     .footer {
       width: 58.12%;
-      min-height: 310px;
       flex-direction: column;
       margin: 64px 118px 24px 16px;
     }
