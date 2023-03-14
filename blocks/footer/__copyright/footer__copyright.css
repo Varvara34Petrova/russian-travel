@@ -2,7 +2,7 @@
     width: 15.7%;
     text-align: right;
     line-height: 1.14;
-    font-size: 0.87rem;
+    font-size: 14px;
     font-weight: normal;
     font-style: regular;
     padding: 2px 0 0 533px;
@@ -25,10 +25,9 @@
   
   @media screen and (max-width: 767px) {
     .footer__copyright {
-      width: 34.44%;
-      justify-items: flex-start;
-      padding: 2px 0 0 80px;
-      font-size: 0.7rem;
+      font-size: 12px;
+      line-height: 1;
+      padding-left: 0;
     }
   }
 

@@ -3,7 +3,7 @@
     text-decoration: none;
     margin: 0;
     line-height: 1.12;
-    font-size: 1rem;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     padding-left: 18px;
@@ -12,14 +12,14 @@
   @media screen and (max-width: 767px) {
     .footer__link {
       padding-left: 12px;
-      font-size: 0.7rem;
+      font-size: 14px;
     }
   }
   
   @media screen and (max-width: 540px) {
     .footer__link {
       padding-left: 0;
-      font-size: 1.5rem;
+      font-size: 24px;
       line-height: 1;
       padding-top: 32px;
     }

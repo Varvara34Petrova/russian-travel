@@ -3,41 +3,36 @@
     margin: 0 auto;
     color: #FFFFFF;
     text-align: center;
-    padding-bottom: 245px;
-    font-size: 1.2rem;
+    font-size: 18px;
     line-height: 1.22;
     font-style: regular;
+    padding-top: 32px;
     z-index: 2;
   }
   
   @media screen and (max-width: 1279px) {
     .cover__subtitle {
       width: 35.15%;
-      padding-bottom: 195px;
     }
   }
   
   @media screen and (max-width: 1023px) {
     .cover__subtitle {
       width: 46.93%;
-      padding-bottom: 115px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .cover__subtitle {
       width: 90%;
-      font-size: 0.87rem;
+      font-size: 14px;
       line-height: 1.1;
-      padding-bottom: 33px;
     }
   }
 
   @media screen and (max-width: 540px) {
     .cover__subtitle {
       width: 90%;
-      /* font-size: 0.87rem; */
-      /* line-height: 1.1; */
-      padding-bottom: 33px;
+      padding-top: 16px;
     }
   }

@@ -1,10 +1,9 @@
 .cover__title {
     width: 47.29%;
     margin: 0 auto;
-    padding: 245px 0 32px 0;
     color: #FFFFFF;
     line-height: 1.06;
-    font-size: 4.5rem;
+    font-size: 72px;
     font-style: inter-black;
     text-align: center;
     text-decoration: none;
@@ -19,22 +18,19 @@
   @media screen and (max-width: 1279px) {
     .cover__title {
       width: 54.74%;
-      padding: 195px 0 32px 0;
     }
   }
   
   @media screen and (max-width: 1023px) {
     .cover__title {
       width: 73%;
-      padding: 115px 0 32px 0;
     }
   }
   
   @media screen and (max-width: 767px) {
     .cover__title {
       width: 90%;
-      font-size: 2rem;
+      font-size: 32px;
       line-height: 1.09;
-      padding: 33px 0 16px 0;
     }
   }

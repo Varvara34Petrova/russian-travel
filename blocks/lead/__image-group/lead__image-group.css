@@ -19,8 +19,9 @@
   
    @media screen and (max-width: 767px) {
     .lead__image-group {
-      width: 95.23%;
-      padding: 0 7.69px 85.14px 7.57px;
+      width: 95.24%;
+
+      padding: 49.34px 13px 143.14px 12.79px;
     }
   }
 

@@ -6,6 +6,7 @@
     margin: 0 48px 24px 48px;
     padding-bottom: 0;
     color: #FFFFFF;
+    align-items: end;
   }
   
   @media screen and (max-width: 1279px) {

@@ -1,5 +1,5 @@
 .lead__image {
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -8,7 +8,14 @@
     background-position: center;
     box-sizing: border-box;
     background-repeat: no-repeat;
-    object-fit: contain;
+
+    object-fit: cover;
     padding-bottom: 0;
     z-index: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    .lead__image {
+      max-width: 540px;
+    }
   }

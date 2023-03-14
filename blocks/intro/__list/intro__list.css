@@ -1,12 +1,14 @@
 .intro__list {
     margin: 0;
     max-width: 690px;
-    font-size: 0.75rem;
+    font-size: 12px;
     line-height: 1.5;
     font-style: normal;
     padding-top: 33px;
+    text-align: top;
     white-space: pre-line;
-    justify-self: start;
+    top: 0;
+    bottom: 0;
   }
   
   @media screen and (max-width: 1279px) {

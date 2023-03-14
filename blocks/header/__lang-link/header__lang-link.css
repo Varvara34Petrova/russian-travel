@@ -1,17 +1,18 @@
 .header__lang-link {
     color: #FFFFFF;
     bottom: 0;
-    max-width: 22px;
+    max-width: 30px;
     display: inline-block;
-    font-style: regular;
-    font-size: 1.2rem;
-    line-height: 1.1;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
     text-decoration: underline;
   }
   
   @media screen and (max-width: 767px) {
     .header__lang-link {
-      font-size: 1.2rem;
+      font-size: 18px;
       line-height: 1.1;
     }
   }
