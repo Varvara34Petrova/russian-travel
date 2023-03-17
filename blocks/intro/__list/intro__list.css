@@ -6,9 +6,10 @@
     font-style: normal;
     padding-top: 33px;
     text-align: top;
-    white-space: pre-line;
+    padding-left: 0;
     top: 0;
     bottom: 0;
+    list-style-type: none;
   }
   
   @media screen and (max-width: 1279px) {

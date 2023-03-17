@@ -1,8 +1,13 @@
 .place__website-link {
     width: 100%;
+    display: inline-block;
     padding-top: 12px;
     color: #FFFFFF;
     line-height: 1.2;
     font-size: 18px;
-    font-style: regular;
+  }
+
+  .place__website-link:hover {
+    transition: opacity 0.5s ease-in-out;
+    text-decoration: underline 3px blue;
   }

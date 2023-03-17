@@ -5,7 +5,13 @@
     text-decoration: none;
     line-height: 1.7;
     font-size: 12px;
-    font-style: regular;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .place__website-url-heading:hover {
+    transition: opacity 0.5s ease-in-out;
+    text-decoration: underline blue;
   }
   
   @media screen and (max-width: 767px) {

@@ -1,32 +1,19 @@
 .cover__title {
-    width: 47.29%;
-    margin: 0 auto;
+    margin: auto;
+    max-width: 560px;
     color: #FFFFFF;
     line-height: 1.06;
     font-size: 72px;
-    font-style: inter-black;
     text-align: center;
-    text-decoration: none;
-    z-index: 2;
+    z-index: 0;
   }
-  
-  .cover__title a {
-    text-decoration: none;
-    color: #FFFFFF;
-  }
-  
+ 
   @media screen and (max-width: 1279px) {
     .cover__title {
-      width: 54.74%;
+      width: 100%;
     }
   }
-  
-  @media screen and (max-width: 1023px) {
-    .cover__title {
-      width: 73%;
-    }
-  }
-  
+ 
   @media screen and (max-width: 767px) {
     .cover__title {
       width: 90%;
