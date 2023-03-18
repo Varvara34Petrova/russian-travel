@@ -9,7 +9,6 @@
   }
 
   .footer__link:hover {
-    text-decoration: none;
     transition: opacity 0.5s ease-in-out;
     text-decoration: underline blue;
   }
