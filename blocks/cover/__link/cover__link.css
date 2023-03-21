@@ -1,8 +1,8 @@
-.cover-link {
+.cover__link {
     text-decoration: none;
 }
 
-.cover-link::before {
+.cover__link::before {
     content: '';
     position: absolute;
     top: 0;
