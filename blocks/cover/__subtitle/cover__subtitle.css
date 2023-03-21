@@ -9,12 +9,6 @@
     z-index: 0;
   }
   
-  @media screen and (max-width: 1023px) {
-    .cover__subtitle {
-      width: 46.93%;
-    }
-  }
-  
   @media screen and (max-width: 767px) {
     .cover__subtitle {
       width: 90%;
@@ -25,7 +19,6 @@
 
   @media screen and (max-width: 540px) {
     .cover__subtitle {
-      width: 90%;
       padding-top: 16px;
     }
   }

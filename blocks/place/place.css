@@ -3,7 +3,6 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
-    grid-template-rows: repeat(auto-fit, minmax(76px, 1fr));
     justify-items: start;
     align-content: end;
     align-items: end;
@@ -14,7 +13,6 @@
   @media screen and (max-width: 1279px) {
     .place {
       max-width: 928px;
-      grid-template-rows: repeat(auto-fit, max-content(72px, auto));
     }
   }
   
@@ -22,7 +20,6 @@
     .place {
       max-width: 720px;
       grid-template-columns: 340px 380px;
-      grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));
       padding-bottom: 73px;
     }
   }
@@ -31,7 +28,6 @@
     .place {
       width: 59.26%;
       grid-template-columns: 320px;
-      grid-template-rows: repeat(auto-fit, minmax(35px, 1fr));
       padding: 0 110px 73px 110px;
     }
   }

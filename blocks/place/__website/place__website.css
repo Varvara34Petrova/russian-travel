@@ -1,17 +1,16 @@
 .place__website {
     margin: 0;
-    width: 46.34%;
+    width: 100%;
     max-width: 456px;
     display: flex;
     flex-direction: column;
-    padding: 30px 28px 0 40px;
+    padding: 0 28px 0 40px;
     justify-content: end;
   }
   
   @media screen and (max-width: 1279px) {
     .place__website {
-      width: 49.13%;
-      padding: 30px 0 0 32px;
+      padding: 0 0 0 32px;
     }
   }
   
@@ -32,37 +31,5 @@
   @media screen and (max-width: 540px) {
     .place__website {
       padding: 32px 16px 0 16px;
-    }
-  }
-  
-  .place__website:nth-child(1) {
-    padding: 106px 28px 0 40px;
-  }
-  
-  @media screen and (max-width: 1279px) {
-    .place__website:nth-child(1) {
-      padding: 106px 0 48px 32px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .place__website:nth-child(1) {
-      padding: 46px 0 48px 28px;
-    }
-  }
-  
-  .place__website:nth-child(4) {
-    padding: 106px 28px 0 40px;
-  }
-  
-  @media screen and (max-width: 1279px) {
-    .place__website:nth-child(4) {
-      padding: 106px 0 48px 32px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .place__website:nth-child(4) {
-      padding: 46px 0 48px 28px;
     }
   }

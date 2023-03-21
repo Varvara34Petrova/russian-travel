@@ -1,9 +1,9 @@
 .place__paragraph {
     color: #FFFFFF;
     margin: auto;
-    line-height: 1.6;
+    line-height: 1.63;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 400;
     justify-self: end;
     padding-bottom: 26px;
   }

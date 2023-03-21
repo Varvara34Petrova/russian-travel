@@ -1,8 +1,8 @@
 .place__website-url-heading {
     width: 100%;
+    margin: 0;
     color: #AAAAAA;
     text-align: left;
-    text-decoration: none;
     line-height: 1.7;
     font-size: 12px;
     letter-spacing: 2px;
